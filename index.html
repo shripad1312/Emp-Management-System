@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>EMP-MANAGMENT SYSTEM
+        <div class="click-me">
+            <button>ADD EMP</button>
+         </div>
+    </nav>
+
+  
+
+    <table class="tb">
+        <thead>
+            <tr>  
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>p_no</th>
+            <th>Desg</th>
+            <th>Salary</th>
+            <th>Button</th>
+        </tr>
+        </thead>
+        <tbody id="bdy">
+            <tr>
+             <td>1</td>
+             <td>shri</td>
+             <td>shri20.com</td>
+             <td>4759645</td>
+             <td>dev</td>
+             <td>450000</td>  
+             <td id="edit"><button>Edit</button><button>Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+        
+   
+
+    <div class="parent" style="display: none;">
+        
+      <div class="child">
+      
+        <form id="fm">
+            <span> &times;</span>
+            <input type="text" name="uname" placeholder="uname" id="name" required>
+            <input type="email" name="email" placeholder="email"id="email"  required>
+            <input type="number" name="p_no" placeholder="phone_no"id="ph_no"  required>
+            <select id="desg" >
+                <option value="Devloper">devloper</option>
+                <option value="Qa">qality</option>
+                <option value="Tester">tester</option>
+                <option value="Manager">managewr</option>
+            </select>
+            <input type="number" name="salary" placeholder="salary"id="salary"  required>
+            <button id="addempbtn">add employee</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

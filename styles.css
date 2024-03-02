@@ -1,0 +1,116 @@
+.tb{
+    width: 80%;
+    margin-top: 20px;
+    /* border: solid black 1px; */
+    border-collapse: collapse;
+    overflow: hidden;
+    /* position: relative; */
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+.tb>thead>tr>th,.tb>tbody>tr>td{
+    text-align: center;
+    border-bottom: solid black 2px;
+    align-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+tr{
+    height: 30px;
+    background-color: antiquewhite;
+}
+
+body{
+    background-color: black;
+    
+}
+.parent{
+    position:fixed;
+    background-color:rgba(154, 149, 149, 0.758);
+    top: 0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent>.child{
+   border: solid gray 2px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+   
+    width: 300px;
+    
+}
+.parent>.child>form{
+    background-color: white;
+    padding: 14px;
+     display: flex;
+     position: relative;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ span{
+   background-color: red; 
+   
+  position: absolute;
+  top: 0px;
+  right:0px;
+  left:18rem;
+ cursor: pointer;
+ }
+
+ #edit>button{
+    display: inline-block;
+    /* color: aqua; */
+    background-color: red;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 4px;
+ }
+
+
+nav{
+   /* background-color: antiquewhite; */
+   position: absolute;
+   font-size: xx-large;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+   color: white;
+   text-shadow: 0px 0px 10px red;
+   z-index: -111%;
+}
+
+.click-me>button{
+    background-color: rgba(0, 0, 0, 0.178);
+font-size: 20px;
+font-weight: 300;
+    color: red;
+    position: absolute;
+   width: 30%;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: solid white 1px;
+    
+}
+
+#dv{
+    width: 100%;
+    height: 40%;
+    background-color: red;
+}
